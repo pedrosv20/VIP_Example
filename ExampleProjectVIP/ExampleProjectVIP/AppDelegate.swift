@@ -1,11 +1,6 @@
-//
-//  AppDelegate.swift
-//  ExampleProjectVIP
-//
-//  Created by Pedro Vargas on 04/03/21.
-//
-
 import UIKit
+
+//  @TODO: Find other name for Default file for the MainFiles of the lifecycle of the app
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
