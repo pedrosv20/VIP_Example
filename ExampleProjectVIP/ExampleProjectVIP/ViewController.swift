@@ -3,7 +3,7 @@ import UIKit
 class ViewController: UIViewController {
     
     override func loadView() {
-        view = BackgroundRedView()
+        view = ChangeColorView()
     }
 
     override func viewDidLoad() {

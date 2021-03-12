@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4889CDEF25F11E7D0067F06B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4889CDED25F11E7D0067F06B /* LaunchScreen.storyboard */; };
+		483F81EC25FBDD30000FD899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4889CDEE25F11E7D0067F06B /* LaunchScreen.storyboard */; };
 		48C9765B25F10E3F002215A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9765A25F10E3F002215A0 /* AppDelegate.swift */; };
 		48C9765D25F10E3F002215A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9765C25F10E3F002215A0 /* SceneDelegate.swift */; };
 		48C9765F25F10E3F002215A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9765E25F10E3F002215A0 /* ViewController.swift */; };
 		48C9766425F10E42002215A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C9766325F10E42002215A0 /* Assets.xcassets */; };
 		48C9767225F10E42002215A0 /* ExampleProjectVIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9767125F10E42002215A0 /* ExampleProjectVIPTests.swift */; };
 		48C9767D25F10E42002215A0 /* ExampleProjectVIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9767C25F10E42002215A0 /* ExampleProjectVIPUITests.swift */; };
-		48C9769725F111A3002215A0 /* BackgroundRedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9769625F111A3002215A0 /* BackgroundRedView.swift */; };
-		48C9769F25F111AB002215A0 /* BackgroundRedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9769E25F111AB002215A0 /* BackgroundRedViewController.swift */; };
-		48C976A425F111B6002215A0 /* BackgroundRedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C976A325F111B6002215A0 /* BackgroundRedInteractor.swift */; };
-		48C976A925F111BF002215A0 /* BackgroundRedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C976A825F111BF002215A0 /* BackgroundRedPresenter.swift */; };
-		48C976AE25F111CC002215A0 /* BackgroundRedAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C976AD25F111CC002215A0 /* BackgroundRedAssembler.swift */; };
-		48C976B425F111FC002215A0 /* BackgroundRedViewControllerSceneModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C976B325F111FC002215A0 /* BackgroundRedViewControllerSceneModels.swift */; };
+		48C9769725F111A3002215A0 /* ChangeColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9769625F111A3002215A0 /* ChangeColorView.swift */; };
+		48C9769F25F111AB002215A0 /* ChangeColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9769E25F111AB002215A0 /* ChangeColorViewController.swift */; };
+		48C976A425F111B6002215A0 /* ChangeColorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C976A325F111B6002215A0 /* ChangeColorInteractor.swift */; };
+		48C976A925F111BF002215A0 /* ChangeColorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C976A825F111BF002215A0 /* ChangeColorPresenter.swift */; };
+		48C976AE25F111CC002215A0 /* ChangeColorAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C976AD25F111CC002215A0 /* ChangeColorAssembler.swift */; };
+		48C976B425F111FC002215A0 /* ChangeColorSceneModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C976B325F111FC002215A0 /* ChangeColorSceneModels.swift */; };
 		48C976BE25F11342002215A0 /* CodedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C976BD25F11342002215A0 /* CodedView.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4889CDEE25F11E7D0067F06B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4889CDEE25F11E7D0067F06B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48C9765725F10E3F002215A0 /* ExampleProjectVIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleProjectVIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C9765A25F10E3F002215A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48C9765C25F10E3F002215A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,12 +54,12 @@
 		48C9767825F10E42002215A0 /* ExampleProjectVIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleProjectVIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C9767C25F10E42002215A0 /* ExampleProjectVIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleProjectVIPUITests.swift; sourceTree = "<group>"; };
 		48C9767E25F10E42002215A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		48C9769625F111A3002215A0 /* BackgroundRedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRedView.swift; sourceTree = "<group>"; };
-		48C9769E25F111AB002215A0 /* BackgroundRedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRedViewController.swift; sourceTree = "<group>"; };
-		48C976A325F111B6002215A0 /* BackgroundRedInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRedInteractor.swift; sourceTree = "<group>"; };
-		48C976A825F111BF002215A0 /* BackgroundRedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRedPresenter.swift; sourceTree = "<group>"; };
-		48C976AD25F111CC002215A0 /* BackgroundRedAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRedAssembler.swift; sourceTree = "<group>"; };
-		48C976B325F111FC002215A0 /* BackgroundRedViewControllerSceneModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRedViewControllerSceneModels.swift; sourceTree = "<group>"; };
+		48C9769625F111A3002215A0 /* ChangeColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorView.swift; sourceTree = "<group>"; };
+		48C9769E25F111AB002215A0 /* ChangeColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorViewController.swift; sourceTree = "<group>"; };
+		48C976A325F111B6002215A0 /* ChangeColorInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorInteractor.swift; sourceTree = "<group>"; };
+		48C976A825F111BF002215A0 /* ChangeColorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorPresenter.swift; sourceTree = "<group>"; };
+		48C976AD25F111CC002215A0 /* ChangeColorAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorAssembler.swift; sourceTree = "<group>"; };
+		48C976B325F111FC002215A0 /* ChangeColorSceneModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColorSceneModels.swift; sourceTree = "<group>"; };
 		48C976BD25F11342002215A0 /* CodedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,11 +112,12 @@
 			isa = PBXGroup;
 			children = (
 				48C9766825F10E42002215A0 /* Info.plist */,
+				4889CDEE25F11E7D0067F06B /* LaunchScreen.storyboard */,
 				48C9765A25F10E3F002215A0 /* AppDelegate.swift */,
 				48C9765C25F10E3F002215A0 /* SceneDelegate.swift */,
-				48C976B925F11286002215A0 /* Default */,
+				48C9765E25F10E3F002215A0 /* ViewController.swift */,
+				48C9766325F10E42002215A0 /* Assets.xcassets */,
 				48C976BC25F112E6002215A0 /* Extensions */,
-				4889CDED25F11E7D0067F06B /* LaunchScreen.storyboard */,
 				48C976B825F1127A002215A0 /* Scenes */,
 			);
 			path = ExampleProjectVIP;
@@ -140,30 +141,23 @@
 			path = ExampleProjectVIPUITests;
 			sourceTree = "<group>";
 		};
-		48C9769425F1112A002215A0 /* BackgroundRedScene */ = {
+		48C9769425F1112A002215A0 /* ChangeColorScene */ = {
 			isa = PBXGroup;
 			children = (
+				48C976AD25F111CC002215A0 /* ChangeColorAssembler.swift */,
+				48C976A325F111B6002215A0 /* ChangeColorInteractor.swift */,
+				48C976A825F111BF002215A0 /* ChangeColorPresenter.swift */,
+				48C976B325F111FC002215A0 /* ChangeColorSceneModels.swift */,
+				48C9769E25F111AB002215A0 /* ChangeColorViewController.swift */,
 				48C976B225F111D6002215A0 /* View */,
-				48C976AD25F111CC002215A0 /* BackgroundRedAssembler.swift */,
-				48C976A325F111B6002215A0 /* BackgroundRedInteractor.swift */,
-				48C976A825F111BF002215A0 /* BackgroundRedPresenter.swift */,
-				48C9769E25F111AB002215A0 /* BackgroundRedViewController.swift */,
-				48C976B325F111FC002215A0 /* BackgroundRedViewControllerSceneModels.swift */,
 			);
-			path = BackgroundRedScene;
-			sourceTree = "<group>";
-		};
-		48C9769525F11183002215A0 /* BackgroundGreenScene */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = BackgroundGreenScene;
+			path = ChangeColorScene;
 			sourceTree = "<group>";
 		};
 		48C976B225F111D6002215A0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				48C9769625F111A3002215A0 /* BackgroundRedView.swift */,
+				48C9769625F111A3002215A0 /* ChangeColorView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,27 +165,9 @@
 		48C976B825F1127A002215A0 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				48C9769525F11183002215A0 /* BackgroundGreenScene */,
-				48C9769425F1112A002215A0 /* BackgroundRedScene */,
+				48C9769425F1112A002215A0 /* ChangeColorScene */,
 			);
 			path = Scenes;
-			sourceTree = "<group>";
-		};
-		48C976B925F11286002215A0 /* Default */ = {
-			isa = PBXGroup;
-			children = (
-				48C976BB25F112CF002215A0 /* Resources */,
-				48C9765E25F10E3F002215A0 /* ViewController.swift */,
-			);
-			path = Default;
-			sourceTree = "<group>";
-		};
-		48C976BB25F112CF002215A0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				48C9766325F10E42002215A0 /* Assets.xcassets */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		48C976BC25F112E6002215A0 /* Extensions */ = {
@@ -306,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48C9766425F10E42002215A0 /* Assets.xcassets in Resources */,
-				4889CDEF25F11E7D0067F06B /* LaunchScreen.storyboard in Resources */,
+				483F81EC25FBDD30000FD899 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,13 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48C976AE25F111CC002215A0 /* BackgroundRedAssembler.swift in Sources */,
-				48C976B425F111FC002215A0 /* BackgroundRedViewControllerSceneModels.swift in Sources */,
-				48C976A425F111B6002215A0 /* BackgroundRedInteractor.swift in Sources */,
-				48C9769725F111A3002215A0 /* BackgroundRedView.swift in Sources */,
-				48C976A925F111BF002215A0 /* BackgroundRedPresenter.swift in Sources */,
+				48C976AE25F111CC002215A0 /* ChangeColorAssembler.swift in Sources */,
+				48C976B425F111FC002215A0 /* ChangeColorSceneModels.swift in Sources */,
+				48C976A425F111B6002215A0 /* ChangeColorInteractor.swift in Sources */,
+				48C9769725F111A3002215A0 /* ChangeColorView.swift in Sources */,
+				48C976A925F111BF002215A0 /* ChangeColorPresenter.swift in Sources */,
 				48C9765F25F10E3F002215A0 /* ViewController.swift in Sources */,
-				48C9769F25F111AB002215A0 /* BackgroundRedViewController.swift in Sources */,
+				48C9769F25F111AB002215A0 /* ChangeColorViewController.swift in Sources */,
 				48C9765B25F10E3F002215A0 /* AppDelegate.swift in Sources */,
 				48C976BE25F11342002215A0 /* CodedView.swift in Sources */,
 				48C9765D25F10E3F002215A0 /* SceneDelegate.swift in Sources */,
@@ -374,17 +350,6 @@
 			targetProxy = 48C9767925F10E42002215A0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4889CDED25F11E7D0067F06B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4889CDEE25F11E7D0067F06B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		48C9767F25F10E42002215A0 /* Debug */ = {
